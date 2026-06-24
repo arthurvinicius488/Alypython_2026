@@ -1,0 +1,8 @@
+sobrenome = input("Digite o sobrenome do apresentador: ").upper()
+
+if sobrenome in ["PINHEIRO", "ARAÚJO", "ARAUJO"]:
+    print("Bom Dia Nação")
+elif sobrenome in ["BONNER", "VASCONCELOS"]:
+    print("Jornal Brasileiro")
+else:
+    print("Apresentador(a) desconhecido(a).")
