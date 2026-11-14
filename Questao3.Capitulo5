@@ -1,0 +1,6 @@
+import random
+
+participantes = ["Leandro","Pedro","Paula","Bianca"]
+vencedor = random.choice(participantes)
+
+print(f"O vencedor é:{vencedor}!")
